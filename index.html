@@ -126,41 +126,6 @@
       </p>
       <div id="gitalk-container"></div>
     </div>
-    <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-    <script type="text/javascript">
-      var gitalk = new Gitalk({
-        clientID: '002b5b30e7daa7097d2f',
-        clientSecret: '35dfe480919fd4a9bb499e64990786921296a4c2',
-        accessToken: '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',
-        repo: 'gitalk.github.io',
-        owner: 'xbrooke',
-        admin: ['xbrooke'],
-        id: 'Demo',
-        distractionFreeMode: true
-      });
-      gitalk.render('gitalk-container');
-
-      var language = navigator.language || navigator.userLanguage;
-      var intro = document.getElementsByClassName('hero-intro')[0];
-      var beginBtn = document.getElementsByClassName('btn-begin')[0];
-      var demo = document.getElementsByClassName('demo')[0];
-      if (language === 'zh-CH') {
-        intro.innerText = '蛤蟆友，这是Up主的留言板！';
-        beginBtn.innerText = 'JIAOCJE';
-      } else if (!~language.indexOf('zh')) {
-        intro.innerText = '蛤蟆友，这是Up主的留言板！';
-        beginBtn.innerText = 'GET STARTED';
-        demo.innerText = 'Demo';
-      }
-    </script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-49304532-4', 'auto');
-      ga('send', 'pageview');
-    </script>
   </body>
 </html>
+
